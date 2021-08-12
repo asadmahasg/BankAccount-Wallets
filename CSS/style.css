@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    background: rgb(240, 202, 108);
+    overflow: hidden;
+}
+.Container{
+    background: white;
+    display: flex;
+    height:500px;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: calc(50% - 400px);
+    margin-top: 10%;
+    
+}
+.leftSide{
+    width: 45%;
+    height: 100%;
+    background: rgb(236, 235, 235);
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.rightSide{
+    width: 60%;
+    height: 100%;
+    overflow: scroll;
+}
+/* All left side styling */
+.insider{
+    padding: 50px 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.roundBack{
+    background: black;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+#plusImage{
+    margin-top: calc(50% - 12px);
+    margin-left: calc(50% - 12px); 
+}
+.card{
+    background: white;
+    width: 240px;
+    height: 110px;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.masterCard{
+    border: 10;
+    border-color: rgb(73, 173, 212);
+    border-style: solid;
+}
+.visaCard:hover{
+    border: 10;
+    border-color: rgb(73, 173, 212);
+    border-style: solid;
+}
+.maestroCard:hover{
+    border: 10;
+    border-color: rgb(73, 173, 212);
+    border-style: solid;
+}
+#logo{
+    width: 70px;
+}
+.cardNumber{
+    color: grey;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.cardNumber::before{
+    width: 2px;
+    height: 2px;
+    color: grey;
+    position: relative;
+    left: 0%;
+}
+.validHead{
+    color: grey;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+/* All right side Styling */
+.insiderRight{
+    margin: 50px 35px 30px;   
+}
+.rightHeading{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    border: 1px black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: lightgray;
+    position: relative;
+}
+.nameValue{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.expense{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.price{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
